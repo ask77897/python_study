@@ -263,16 +263,16 @@
 #피보나치 수열 1 1 2 3 5 8 13 21 34 ...
 #fibo(6) - 8
 # def fibo():
-num = int(input("몇 번째 숫자까지?"))
-def fibo(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibo(n-1) + fibo(n-2)
-for i in range(1, num+1):
-    print(fibo(i))
+# num = int(input("몇 번째 숫자까지?"))
+# def fibo(n):
+#     if n <= 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibo(n-1) + fibo(n-2)
+# for i in range(1, num+1):
+#     print(fibo(i))
     
 #10진수 -> 2진수로 변환하기
 #binary(10) - 1010
